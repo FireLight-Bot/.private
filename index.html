@@ -2,14 +2,14 @@
 <html>
 <head>
 <meta content="text/html; charset=UTF-8" http-equiv="content-type">
-<title>Domain Cost Analysis</title>
+<title>Domain Private Plans (Insider only)</title>
 <style type="text/css">
-/* --- General Styles --- */
+/* --- General Styles (Dark Theme) --- */
 body {
     font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     line-height: 1.6;
-    color: #333;
-    background-color: #f4f4f4;
+    color: #eee; /* Light text on dark background */
+    background-color: #121212; /* Very dark gray background */
     margin: 0;
     padding: 0;
 }
@@ -18,15 +18,15 @@ body {
     max-width: 960px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    background-color: #1e1e1e; /* Slightly lighter gray container */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3); /* Darker shadow */
 }
 
-/* --- Typography --- */
+/* --- Typography (Dark Theme) --- */
 h1 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
-    color: #22577A;
+    color: #add8e6; /* Light blue */
     border-bottom: 2px solid #57A0D3;
     padding-bottom: 0.5rem;
 }
@@ -35,20 +35,20 @@ h2 {
     font-size: 1.8rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
-    color: #38A3A5;
+    color: #87ceeb; /* Sky blue */
 }
 
 h3 {
     font-size: 1.4rem;
     margin-top: 1.5rem;
     margin-bottom: 0.8rem;
-    color: #57CC99;
+    color: #6495ed; /* Cornflower blue */
 }
 h4 {
     font-size: 1.2rem;
     margin-top: 1.5rem;
     margin-bottom: 0.8rem;
-    color: #80ED99;
+    color: #4682b4; /* Steel blue */
 }
 
 p {
@@ -57,13 +57,13 @@ p {
 }
 
 a {
-    color: #007bff;
+    color: #90ee90; /* Light green - stands out well */
     text-decoration: none;
     transition: color 0.2s ease-in-out;
 }
 
 a:hover {
-    color: #0056b3;
+    color: #32cd32; /* Lime green on hover */
     text-decoration: underline;
 }
 
@@ -76,7 +76,8 @@ ul {
 li {
     margin-bottom: 0.5rem;
 }
-/* --- Table --- */
+
+/* --- Table (Dark Theme) --- */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -85,19 +86,19 @@ table {
 }
 
 th, td {
-    border: 1px solid #ddd;
+    border: 1px solid #444; /* Darker border */
     padding: 8px 12px;
     text-align: left;
 }
 
 th {
-    background-color: #f8f9fa;
+    background-color: #333; /* Darker header background */
     font-weight: bold;
-    color: #495057;
+    color: #eee; /* Light text for headers */
 }
 
 tr:nth-child(even) {
-    background-color: #f2f2f2;
+    background-color: #282828; /* Slightly lighter row background */
 }
 
 /* --- Responsive Design (Basic) --- */
@@ -127,7 +128,6 @@ tr:nth-child(even) {
 .bold-text {
   font-weight: bold;
 }
-
 
 
 </style>
